@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+li {
+    
+    list-style: none;
+        
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+}
+
+a:hover {
+    
+    background-color: transparent;
+    
+    cursor: pointer;
+    color: brown;
+}
+
+.nav-link .a:hover{
+    color: red;
+}
+
+
+.navbar {
+    
+    height: 10vh;
+    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+    position: fixed;
+    /* position: static; */
+    background-color: white;
+    overflow: visible;
+    width: 100%;
+}
+
+
+.logo {
+    font-size: 30px;
+    margin-top: -18px;
+    margin-left: -500px;
+}
+
+.navlinks {
+    display: flex;
+    /* justify-content: flex-end; */
+    width: 75%;
+    margin-left: 450px;
+    /* margin-top: -10px; */
+    
+}
+
+.container {
+    max-width: 100%;
+    /* margin: auto; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    /* margin-top: 10px; */
+    
+
+}
+
+.navlinks li{
+    color: black;
+    font-size: 17px;
+    padding: 0 10px;
+    margin: 0 15px;
+    cursor: pointer;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-top: 20px;
+    
+    
+}
+
+.navlinks ul li:hover {
+    color: #eab676;
+    text-decoration: none;
+}
+
+.dropdown-hover:hover .a nav-link {
+    color: red;
+}
+
+.dropdown-hover {
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    color: red;
+}
+
+.dropdown-hover .dropdown-item:hover {
+    background-color:brown; /* Change this to the desired hover background color */
+    color: white ;/* Change this to the desired hover text color */
+    border-radius: 2px;
+    
+
+}
+
+/* Apply active styles to the clicked dropdown item */
+.dropdown-hover .dropdown-item:focus,
+.dropdown-hover .dropdown-item:active {
+    background-color: #e9ecef; /* Change this to the desired active background color */
+    color: red; /* Change this to the desired active text color */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

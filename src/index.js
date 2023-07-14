@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { BrowserRouter } from 'react-router-dom';
+import { Dropdown } from 'bootstrap'
+import { Route } from 'react-router-dom/cjs/react-router-dom.min';
+// import Home from './Components/Home';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+      <Route />
+    </BrowserRouter> 
+    
   </React.StrictMode>
 );
 
